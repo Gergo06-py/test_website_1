@@ -8,12 +8,13 @@
     </head>
 
     <body>
-        <div>
-            <input type="text" placeholder="What tasks do you have?">
-            <button type="submit">Create task</button>
-            <button type="menu">More options</button>
+        <input type="text" placeholder="What tasks do you have?" id="task">
+        <button type="submit" onclick="createTask();">Create Task</button>
+        <br>
+        <button type="menu" onclick="moreOptions();">Options</button>
 
-        </div>
+        <div id="options" class="options"></div>
+        <div id="tasks" class="tasks"></div>
         <script src="script.js"></script>
     </body>
 </html>
